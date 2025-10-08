@@ -14,7 +14,18 @@ public class Principal {
 
         for (int i = nivelActual+1 ; i <= nivelActual+nivelSubida; i++) {
             System.out.println(nombre + " ha subido al nivel  " + i);
+        if (i ==16 || i ==36) {
+            String mensajeEvolución = "¡Vaya!" + nombre + " está evolucionando ";
+            System.out.println(mensajeEvolución);
+
+            int nivelFinal= nivelActual+nivelSubida;
+            System.out.println("Finalmente el nivel final de " + nombre + " es de " + nivelFinal);
+            System.out.println("¡Enhorabuena entrenador!");
         }
+
+
+        }
+
 
     }
 }
