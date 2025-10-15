@@ -13,12 +13,12 @@ public class Principal {
         switch (director) {
             case "Christopher Nolan":
                 System.out.println("Te recomiendo ver Inception");
-                System.out.println("¿Te gustan las películas de ciencia ficción? (Si/No");
+                System.out.println("¿Te gustan las películas de ciencia ficción? (Si/No)");
                 String respuesta = sc.nextLine();
                 if (respuesta.equals("Si")) {
                     System.out.println("Genial. Disfrutarás de sus mundos complejos");
                 } else {
-                    System.out.println("No te preocupes. La acción y la trama también son excelentes");
+                    System.out.println("Quizás prefieras su película 'The Dark Knight', que es más de acción");
                 }
                 break;
             case "Quentin Tarantino":
