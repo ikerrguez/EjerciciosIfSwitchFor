@@ -21,10 +21,10 @@ public class Principal {
                 System.out.printf("El jugador " + jugador + " tiene un promedio de %.2f%n ", +promedio);
                 System.out.println("Rendimiento bota de oro");
 
-            } else if (promedio >= 0.5 || promedio <= 0.8) {
+            } else if (promedio >= 0.5) {
                 System.out.printf("El jugador " + jugador + " tiene un promedio de %.2f%n ", +promedio);
                 System.out.println("Muy buen rendimiento. ¡Es un gran goleador!");
-            } else if (promedio <= 0.5 || promedio > 0) {
+            } else if (promedio < 0.5) {
                 System.out.printf("El jugador " + jugador + " tiene un promedio de %.2f%n ", +promedio);
                 System.out.println("Necesita mejorar su promedio, pero sigue trabajando");
 
