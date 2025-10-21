@@ -17,8 +17,8 @@ public class Principal {
 
             switch (opcion) {
                 case 1:
-                    System.out.print("Introduce el nombre del Pokémon:\n> ");
-                    String nombre = sc.nextLine().toLowerCase();
+                    System.out.println("Introduce el nombre del Pokémon:\n> ");
+                    String nombre = sc.next();
 
                     switch (nombre) {
                         case "pikachu":
